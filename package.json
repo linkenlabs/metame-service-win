@@ -1,0 +1,27 @@
+{
+  "name": "metame-service-win",
+  "version": "0.22.0-rc.11",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prebuild": "npx tsc",
+    "build": "node build.js",
+    "prepush": "npm run build",
+    "push": "node publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.linkenlabs.com/scm/met/metame-service-win.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.35",
+    "fs-extra": "^8.1.0",
+    "metame-common": "git+https://bitbucket.linkenlabs.com/scm/met/metame-common.git#semver:^1.1.2",
+    "typescript": "^3.8.3"
+  }
+}
