@@ -116,7 +116,7 @@ namespace MetaMe.Sensors
 
                 var addressBarCondition = automation.CreateAndCondition(
                     automation.CreatePropertyCondition(UIAProperties.UIA_ControlTypePropertyId, UIAControlTypes.UIA_EditControlTypeId),
-                    automation.CreatePropertyCondition(UIAProperties.UIA_AutomationIdPropertyId, "view_1026"));
+                    automation.CreatePropertyCondition(UIAProperties.UIA_AcceleratorKeyPropertyId, "Ctrl+L"));
 
                 IUIAutomationElement result = root.FindFirstBuildCache(TreeScope.TreeScope_Descendants,
                                                 addressBarCondition,
