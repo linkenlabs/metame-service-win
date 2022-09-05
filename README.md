@@ -2,8 +2,6 @@
 
 # Install
 Node.js
-Dotfuscator CLI
-    - Install via Visual Studio Installer
 
 # Release instructions
 To build and push compiled artifacts to the metame-service-win-release npm package. Run the following
