@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.linkenlabs.com/scm/met/metame-service-win.git"
+    "url": "https://github.com/linkenlabs/metame-service-win.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.12.35",
     "fs-extra": "^8.1.0",
-    "metame-common": "git+https://bitbucket.linkenlabs.com/scm/met/metame-common.git#semver:^1.1.2",
+    "metame-common": "git+https://github.com/linkenlabs/metame-common.git#semver:^1.1.2",
     "typescript": "^3.8.3"
   }
 }
